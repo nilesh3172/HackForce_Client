@@ -6,7 +6,9 @@ import Table from '../../components/table/personalcourse';
 import { AuthContext } from '../../context/AuthContext';
 import { useContext} from "react";
 import CircularProgress from "@mui/material/CircularProgress";
+import useBackButtonReload from "../../hooks/backbutton";
 const Profile = () => {
+  useBackButtonReload();
   const { user } = useContext(AuthContext);
 
   if (user == null) {

@@ -5,7 +5,9 @@ import { AuthContext } from "../../context/AuthContext";
 import "./login.css";
 import imag from './college.jpg'
 import { baseurl } from "../../services/helper";
+import useBackButtonReload from "../../hooks/backbutton";
 const Login = () => {
+  useBackButtonReload();
   const [credentials, setCredentials] = useState({
     username: undefined,
     password: undefined,
