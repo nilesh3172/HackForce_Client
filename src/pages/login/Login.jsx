@@ -30,9 +30,8 @@ const Login = () => {
       if(res.data.isAdmin){
         navigate("/adminprofile");
       }
-      else{
+        if(!res.data.isAdmin)
         navigate("/profile");
-      }
     } catch (err) {
       dispatch({ type: "LOGIN_FAILURE", payload: err.response.data });
     }
