@@ -1,8 +1,7 @@
 import "./profile.css";
 
 import AdminSidebar from "../../components/sidebar/adminsidebar"
-// import Table from "../../../components/table/table";
-import useFetch from '../../hooks/useFetch';
+
 import { AuthContext } from '../../context/AuthContext';
 import { useContext} from "react";
 import CircularProgress from "@mui/material/CircularProgress";
