@@ -31,7 +31,7 @@ const All = () => {
       console.log(data);
       await axios.delete(`${baseurl}/api/course/delete/${course_code}`);
       console.log(course_code);
-      location.reload();
+      window.location.reload();
     }
     catch (err) {console.log(err)}
     
