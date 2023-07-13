@@ -1,0 +1,27 @@
+.topplace {
+      -webkit-box-shadow: 2px 1px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+     padding-left: 20px;
+      margin: 2vw;
+      display: flex;
+}
+h1{
+    padding-left: 20px;
+}
+.topbar{
+    margin: 25px;
+    margin-bottom: 80px;
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 2px 1px 10px 1px rgba(10, 1, 1, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+
+    
+}
+.course{
+    margin: 25px;
+    display: flex;
+    margin-top: 100px;
+}
+.newContainer {
+    flex: 6;}

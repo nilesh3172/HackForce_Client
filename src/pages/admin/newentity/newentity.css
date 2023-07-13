@@ -1,0 +1,17 @@
+.Img{
+  width: 90%;
+}
+.Button{
+  width: 100%;
+
+}
+
+.topnew{
+  margin: 25px;
+
+  background-color: white;
+  padding: 4px;
+  -webkit-box-shadow: 2px 1px 10px 1px rgba(54, 49, 49, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(92, 77, 77, 0.47);
+
+}
