@@ -8,7 +8,7 @@ import Profile from '../src/pages/profile/profile';
 import New from './pages/admin/new/New';
 import Dashboard from '../src/pages/admin/dashbord/dashbord'
 import NewEntity from '../src/pages/admin/newentity/newentity'
-import Course from '../../client/src/pages/student/course/course'
+import Course from './pages/student/course/course'
 import AdminProfile from './pages/profile/adminprofile'
 import Updateentity from './pages/admin/newentity/updateentity';
 
