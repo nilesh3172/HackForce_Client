@@ -17,7 +17,7 @@ const All = () => {
   console.log(data);
   function  updatestudent(username){
     const url = '/user/redirect-page.html?course_code=' + encodeURIComponent(username);
-    window.location.href = baseurl+url;
+    window.location.href = url;
    
   }
 
