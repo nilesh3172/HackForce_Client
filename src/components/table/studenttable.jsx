@@ -24,7 +24,7 @@ const All = () => {
   async function  deleteStudent(username){
     try{
       await axios.delete(`${baseurl}/api/users/delete/${username}`);
-      windows.location.reload();
+      location.reload();
     }
     catch (err) {console.log(err)}
     
