@@ -20,7 +20,7 @@ const All = () => {
   
   function  updateCourse(course_code){
    const url = '/course/redirect-page.html?course_code=' + encodeURIComponent(course_code);
-   window.location.href = baseurl+url;
+   window.location.href = url;
   }
 
 
@@ -29,9 +29,7 @@ const All = () => {
     try{
       const data = {"course_code" :course_code}
       console.log(data);
-      await axios.delete(`${baseurl}/api/course/delete/${course_code}`);
-      console.log(course_code);
-      
+      await axios.delete(`${baseurl}/api/course/delete/${course_code}`); 
     }
     catch (err) {console.log(err)}
     
