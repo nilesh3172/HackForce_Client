@@ -18,7 +18,7 @@ const Widget = ({ choice }) => {
   const CHOICE = choice ? choice.toUpperCase() : "";
 
 
-  const { data, loading, error } = useFetch(`${baseurl}/api${url}`);
+  const { data, loading } = useFetch(`${baseurl}/api${url}`);
 
 
 
